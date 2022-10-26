@@ -40,7 +40,8 @@ button:hover {
 }
 
 @media (max-width:768px) {
-  .content-block { text-align: center;
+  .content-block {
+    text-align: center;
   }
 }
 .centered {
