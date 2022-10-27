@@ -28,21 +28,21 @@ button {
 button:hover {
   color: #3a3A3a;
 }
-.content-block {
+.top {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.content-block-image {
+.top__image {
   width: 100%;
 }
-.content-block .more-info {
+.top__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .content-block {
+  .top {
     text-align: center;
   }
 }
@@ -95,7 +95,7 @@ button:hover {
 }
 
 /* Task list */
-.list-item {
+.list__item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -103,20 +103,20 @@ button:hover {
   justify-content: space-between;
   align-items: center;
 }
-.list-item > * {
+.list__item > * {
   vertical-align: middle;
 }
 
-.list-item > .checkbox {
+.list__item > .checkbox {
   margin: 0 10px;
 }
-.list-item > .task-label {
+.list__item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.list-item > .task-input {
+.list__item > .task-input {
   width: 226px;
 }
 .delete-img {
@@ -144,6 +144,6 @@ button:hover {
   width: 224px;
 }
 
-.edit-mode label {
+.edit-mode .task-label {
   display: none;
 }
