@@ -56,7 +56,7 @@ button:hover {
   display: inline-block;
   flex-grow: 1;
 }
-.task-wrapper {
+.add-task {
   display: flex;
 }
 /* Heading */
